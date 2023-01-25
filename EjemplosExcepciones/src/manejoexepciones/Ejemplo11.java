@@ -31,6 +31,7 @@ public class Ejemplo11 {
                 if (valor1 > 100) {
                     throw new Exception("El valor de primer valor es muy alto");
                 }
+               
                 int resultado = valor1 / valor2;
                 System.out.printf("Resultado %s\n", resultado);
 
